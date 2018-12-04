@@ -1,0 +1,26 @@
+# /etc/conf.d/tourcoind: config file for /etc/init.d/tourcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/tourcoin/tourcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/tourcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/tourcoind.pid"
+
+# Where to write tourcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/tourcoind"
+
+# User and group to own tourcoind process
+#BITCOIND_USER="tourcoin"
+#BITCOIND_GROUP="tourcoin"
+
+# Path to tourcoind executable
+#BITCOIND_BIN="/usr/bin/tourcoind"
+
+# Nice value to run tourcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

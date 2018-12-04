@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TRCN
+Comment=TRCN P2P Cryptocurrency
+Exec=tourcoin-qt %u
+Terminal=false
+Type=Application
+Icon=tourcoin128
+MimeType=x-scheme-handler/tourcoin;
+Categories=Office;Finance;
+Name[en_US]=tourcoin-qt.desktop
